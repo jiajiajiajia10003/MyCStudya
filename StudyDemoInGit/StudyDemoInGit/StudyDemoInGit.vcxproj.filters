@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\ServiceLocator">
+      <UniqueIdentifier>{230332b3-a6ad-43c5-9b08-3a03d95520ab}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -24,6 +27,24 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="ServiceLocator\Audio.h">
+      <Filter>源文件\ServiceLocator</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceLocator\ConsoleAudio.h">
+      <Filter>源文件\ServiceLocator</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceLocator\Locator.h">
+      <Filter>源文件\ServiceLocator</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceLocator\NullAudio.h">
+      <Filter>源文件\ServiceLocator</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceLocator\LoggedWrappedAudio.h">
+      <Filter>源文件\ServiceLocator</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceLocator\TestLocator.h">
+      <Filter>源文件\ServiceLocator</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -31,6 +52,27 @@
     </ClCompile>
     <ClCompile Include="StudyDemoInGit.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceLocator\Audio.cpp">
+      <Filter>源文件\ServiceLocator</Filter>
+    </ClCompile>
+    <ClCompile Include="audio.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceLocator\ConsoleAudio.cpp">
+      <Filter>源文件\ServiceLocator</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceLocator\Locator.cpp">
+      <Filter>源文件\ServiceLocator</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceLocator\NullAudio.cpp">
+      <Filter>源文件\ServiceLocator</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceLocator\LoggedWrappedAudio.cpp">
+      <Filter>源文件\ServiceLocator</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceLocator\TestLocator.cpp">
+      <Filter>源文件\ServiceLocator</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

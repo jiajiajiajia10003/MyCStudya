@@ -14,3 +14,5 @@ StudyDemoInGit/StudyDemoInGit/Debug/vc110.pdb
 StudyDemoInGit/StudyDemoInGit/Debug/vc110.idb
 StudyDemoInGit/StudyDemoInGit/Debug/stdafx.obj
 StudyDemoInGit/StudyDemoInGit/Debug/StudyDemoInGit.lastbuildstate
+*.obj
+StudyDemoInGit/StudyDemoInGit/Debug/StudyDemoInGit.Build.CppClean.log
