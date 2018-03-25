@@ -77,6 +77,19 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Factory3Mode\AbstractFactory.h" />
+    <ClInclude Include="Factory3Mode\AbstractProductA.h" />
+    <ClInclude Include="Factory3Mode\AbstractProductB.h" />
+    <ClInclude Include="Factory3Mode\Factory1.h" />
+    <ClInclude Include="Factory3Mode\Factory2.h" />
+    <ClInclude Include="Factory3Mode\FactoryA_1.h" />
+    <ClInclude Include="Factory3Mode\FactoryA_2.h" />
+    <ClInclude Include="Factory3Mode\ProductB_2.h" />
+    <ClInclude Include="Factory3Mode\ProductA_1.h" />
+    <ClInclude Include="Factory3Mode\ProductA_2.h" />
+    <ClInclude Include="Factory3Mode\ProductB_1.h" />
+    <ClInclude Include="Factory3Mode\SimpleFactory.h" />
+    <ClInclude Include="Factory3Mode\TestFactory.h" />
     <ClInclude Include="ServiceLocator\Audio.h" />
     <ClInclude Include="ServiceLocator\ConsoleAudio.h" />
     <ClInclude Include="ServiceLocator\Locator.h" />
@@ -88,6 +101,19 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="audio.cpp" />
+    <ClCompile Include="Factory3Mode\AbstractFactory.cpp" />
+    <ClCompile Include="Factory3Mode\AbstractProductA.cpp" />
+    <ClCompile Include="Factory3Mode\AbstractProductB.cpp" />
+    <ClCompile Include="Factory3Mode\Factory1.cpp" />
+    <ClCompile Include="Factory3Mode\Factory2.cpp" />
+    <ClCompile Include="Factory3Mode\FactoryA_1.cpp" />
+    <ClCompile Include="Factory3Mode\FactoryA_2.cpp" />
+    <ClCompile Include="Factory3Mode\ProductB_2.cpp" />
+    <ClCompile Include="Factory3Mode\ProductA_1.cpp" />
+    <ClCompile Include="Factory3Mode\ProductA_2.cpp" />
+    <ClCompile Include="Factory3Mode\ProductB_1.cpp" />
+    <ClCompile Include="Factory3Mode\SimpleFactory.cpp" />
+    <ClCompile Include="Factory3Mode\TestFactory.cpp" />
     <ClCompile Include="ServiceLocator\Audio.cpp" />
     <ClCompile Include="ServiceLocator\ConsoleAudio.cpp" />
     <ClCompile Include="ServiceLocator\Locator.cpp" />

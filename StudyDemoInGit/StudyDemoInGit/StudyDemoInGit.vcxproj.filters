@@ -16,6 +16,12 @@
     <Filter Include="源文件\ServiceLocator">
       <UniqueIdentifier>{230332b3-a6ad-43c5-9b08-3a03d95520ab}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\EventQueue">
+      <UniqueIdentifier>{356a7407-3aed-4266-8c49-88187a22902f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Factory3Mode">
+      <UniqueIdentifier>{4ef86f0e-f063-40a8-9de6-57e9357df62a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -45,6 +51,45 @@
     <ClInclude Include="ServiceLocator\TestLocator.h">
       <Filter>源文件\ServiceLocator</Filter>
     </ClInclude>
+    <ClInclude Include="Factory3Mode\AbstractProductA.h">
+      <Filter>源文件\Factory3Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory3Mode\ProductA_1.h">
+      <Filter>源文件\Factory3Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory3Mode\ProductA_2.h">
+      <Filter>源文件\Factory3Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory3Mode\AbstractFactory.h">
+      <Filter>源文件\Factory3Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory3Mode\AbstractProductB.h">
+      <Filter>源文件\Factory3Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory3Mode\Factory1.h">
+      <Filter>源文件\Factory3Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory3Mode\Factory2.h">
+      <Filter>源文件\Factory3Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory3Mode\FactoryA_1.h">
+      <Filter>源文件\Factory3Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory3Mode\FactoryA_2.h">
+      <Filter>源文件\Factory3Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory3Mode\ProductB_1.h">
+      <Filter>源文件\Factory3Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory3Mode\SimpleFactory.h">
+      <Filter>源文件\Factory3Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory3Mode\TestFactory.h">
+      <Filter>源文件\Factory3Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory3Mode\ProductB_2.h">
+      <Filter>源文件\Factory3Mode</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -73,6 +118,45 @@
     </ClCompile>
     <ClCompile Include="ServiceLocator\TestLocator.cpp">
       <Filter>源文件\ServiceLocator</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory3Mode\AbstractProductA.cpp">
+      <Filter>源文件\Factory3Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory3Mode\ProductA_1.cpp">
+      <Filter>源文件\Factory3Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory3Mode\ProductA_2.cpp">
+      <Filter>源文件\Factory3Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory3Mode\AbstractFactory.cpp">
+      <Filter>源文件\Factory3Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory3Mode\AbstractProductB.cpp">
+      <Filter>源文件\Factory3Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory3Mode\Factory1.cpp">
+      <Filter>源文件\Factory3Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory3Mode\Factory2.cpp">
+      <Filter>源文件\Factory3Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory3Mode\FactoryA_1.cpp">
+      <Filter>源文件\Factory3Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory3Mode\FactoryA_2.cpp">
+      <Filter>源文件\Factory3Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory3Mode\ProductB_1.cpp">
+      <Filter>源文件\Factory3Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory3Mode\SimpleFactory.cpp">
+      <Filter>源文件\Factory3Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory3Mode\TestFactory.cpp">
+      <Filter>源文件\Factory3Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory3Mode\ProductB_2.cpp">
+      <Filter>源文件\Factory3Mode</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
