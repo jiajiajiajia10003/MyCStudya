@@ -77,6 +77,14 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CommandMode\Command_Chicken.h" />
+    <ClInclude Include="CommandMode\Command_Mutton.h" />
+    <ClInclude Include="CommandMode\ICommand.h" />
+    <ClInclude Include="CommandMode\Invoker.h" />
+    <ClInclude Include="CommandMode\IReceiver.h" />
+    <ClInclude Include="CommandMode\Receiver_1.h" />
+    <ClInclude Include="CommandMode\Receiver_2.h" />
+    <ClInclude Include="CommandMode\TestCommand.h" />
     <ClInclude Include="Factory3Mode\AbstractFactory.h" />
     <ClInclude Include="Factory3Mode\AbstractProductA.h" />
     <ClInclude Include="Factory3Mode\AbstractProductB.h" />
@@ -101,6 +109,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="audio.cpp" />
+    <ClCompile Include="CommandMode\Command_Chicken.cpp" />
+    <ClCompile Include="CommandMode\Command_Mutton.cpp" />
+    <ClCompile Include="CommandMode\ICommand.cpp" />
+    <ClCompile Include="CommandMode\Invoker.cpp" />
+    <ClCompile Include="CommandMode\IReceiver.cpp" />
+    <ClCompile Include="CommandMode\Receiver_1.cpp" />
+    <ClCompile Include="CommandMode\Receiver_2.cpp" />
+    <ClCompile Include="CommandMode\TestCommand.cpp" />
     <ClCompile Include="Factory3Mode\AbstractFactory.cpp" />
     <ClCompile Include="Factory3Mode\AbstractProductA.cpp" />
     <ClCompile Include="Factory3Mode\AbstractProductB.cpp" />
