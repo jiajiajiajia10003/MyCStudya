@@ -6,6 +6,8 @@
 #include "Factory3Mode/TestFactory.h"
 #include "CommandMode/TestCommand.h"
 
+#include "ThreadPool/TestThreadPool.h"
+
 //void test()
 //{
 //    //TestLocator testlocator;
@@ -25,7 +27,7 @@
 //}
 int _tmain(int argc, _TCHAR* argv[])
 {
-    
+    TestThreadPoolFunction();
 
 	return 0;
 }

@@ -25,6 +25,9 @@
     <Filter Include="源文件\CommandMode">
       <UniqueIdentifier>{312b104b-3bbf-4303-9175-ff6b7db54cfe}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\ThreadPool">
+      <UniqueIdentifier>{d8b92402-a74b-4820-aa62-9e30f0ab0c54}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -117,6 +120,9 @@
     <ClInclude Include="CommandMode\TestCommand.h">
       <Filter>源文件\CommandMode</Filter>
     </ClInclude>
+    <ClInclude Include="ThreadPool\ThreadPool.h">
+      <Filter>源文件\ThreadPool</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -208,6 +214,15 @@
     </ClCompile>
     <ClCompile Include="CommandMode\TestCommand.cpp">
       <Filter>源文件\CommandMode</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPool\ThreadPool.cpp">
+      <Filter>源文件\ThreadPool</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPool\TestThreadPool.h">
+      <Filter>源文件\ThreadPool</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPool\TestThreadPool.cpp">
+      <Filter>源文件\ThreadPool</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
