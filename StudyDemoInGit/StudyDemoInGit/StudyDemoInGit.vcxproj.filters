@@ -28,6 +28,9 @@
     <Filter Include="源文件\ThreadPool">
       <UniqueIdentifier>{d8b92402-a74b-4820-aa62-9e30f0ab0c54}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\SimpleAOP">
+      <UniqueIdentifier>{662771ce-0392-4ee1-a5ed-9f67f96a393d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -122,6 +125,18 @@
     </ClInclude>
     <ClInclude Include="ThreadPool\ThreadPool.h">
       <Filter>源文件\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleAOP\TimeElapsedAspect.h">
+      <Filter>源文件\SimpleAOP</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleAOP\LogAspect.h">
+      <Filter>源文件\SimpleAOP</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleAOP\TestAspect.h">
+      <Filter>源文件\SimpleAOP</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleAOP\Aspect.h">
+      <Filter>源文件\SimpleAOP</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -223,6 +238,12 @@
     </ClCompile>
     <ClCompile Include="ThreadPool\TestThreadPool.cpp">
       <Filter>源文件\ThreadPool</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleAOP\TimeElapsedAspect.cpp">
+      <Filter>源文件\SimpleAOP</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleAOP\LogAspect.cpp">
+      <Filter>源文件\SimpleAOP</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

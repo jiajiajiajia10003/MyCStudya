@@ -16,3 +16,6 @@ StudyDemoInGit/StudyDemoInGit/Debug/stdafx.obj
 StudyDemoInGit/StudyDemoInGit/Debug/StudyDemoInGit.lastbuildstate
 *.obj
 StudyDemoInGit/StudyDemoInGit/Debug/StudyDemoInGit.Build.CppClean.log
+StudyDemoInGit/.vs/
+StudyDemoInGit/StudyDemoInGit/Debug/
+StudyDemoInGit/StudyDemoInGit/StudyDemoInGit.vcxproj.user

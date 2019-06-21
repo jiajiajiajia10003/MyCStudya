@@ -14,18 +14,19 @@
     <ProjectGuid>{43BCCAC7-6DD1-42C7-9F9D-853360FF5810}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>StudyDemoInGit</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -104,6 +105,10 @@
     <ClInclude Include="ServiceLocator\LoggedWrappedAudio.h" />
     <ClInclude Include="ServiceLocator\NullAudio.h" />
     <ClInclude Include="ServiceLocator\TestLocator.h" />
+    <ClInclude Include="SimpleAOP\Aspect.h" />
+    <ClInclude Include="SimpleAOP\LogAspect.h" />
+    <ClInclude Include="SimpleAOP\TestAspect.h" />
+    <ClInclude Include="SimpleAOP\TimeElapsedAspect.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="ThreadPool\ThreadPool.h" />
@@ -137,6 +142,8 @@
     <ClCompile Include="ServiceLocator\LoggedWrappedAudio.cpp" />
     <ClCompile Include="ServiceLocator\NullAudio.cpp" />
     <ClCompile Include="ServiceLocator\TestLocator.cpp" />
+    <ClCompile Include="SimpleAOP\LogAspect.cpp" />
+    <ClCompile Include="SimpleAOP\TimeElapsedAspect.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>

@@ -25,9 +25,12 @@
 //    //TestCommand testCmd;
 //    //testCmd.TestFunc();
 //}
+
+#include "SimpleAOP/TestAspect.h"
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-    TestThreadPoolFunction();
+	test_aspect();
 
 	return 0;
 }
