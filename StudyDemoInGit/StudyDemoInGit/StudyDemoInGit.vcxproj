@@ -52,10 +52,13 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)StudyDemoInGit\thirdparty\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)StudyDemoInGit\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>gtestd.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -136,6 +139,8 @@
     <ClCompile Include="Factory3Mode\ProductB_1.cpp" />
     <ClCompile Include="Factory3Mode\SimpleFactory.cpp" />
     <ClCompile Include="Factory3Mode\TestFactory.cpp" />
+    <ClCompile Include="gtestDemo\add.cpp" />
+    <ClCompile Include="gtestDemo\testCase.cpp" />
     <ClCompile Include="ServiceLocator\Audio.cpp" />
     <ClCompile Include="ServiceLocator\ConsoleAudio.cpp" />
     <ClCompile Include="ServiceLocator\Locator.cpp" />

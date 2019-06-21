@@ -27,11 +27,12 @@
 //}
 
 #include "SimpleAOP/TestAspect.h"
+#include <gtest/gtest.h>
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	test_aspect();
+    testing::InitGoogleTest(&argc, argv);
 
-	return 0;
+	return RUN_ALL_TESTS();;
 }
 

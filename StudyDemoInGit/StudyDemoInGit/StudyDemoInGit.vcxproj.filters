@@ -31,6 +31,9 @@
     <Filter Include="源文件\SimpleAOP">
       <UniqueIdentifier>{662771ce-0392-4ee1-a5ed-9f67f96a393d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\gtestDemo">
+      <UniqueIdentifier>{1a8934f8-b5df-4bb8-be40-a296e90ea710}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -244,6 +247,12 @@
     </ClCompile>
     <ClCompile Include="SimpleAOP\LogAspect.cpp">
       <Filter>源文件\SimpleAOP</Filter>
+    </ClCompile>
+    <ClCompile Include="gtestDemo\add.cpp">
+      <Filter>源文件\gtestDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="gtestDemo\testCase.cpp">
+      <Filter>源文件\gtestDemo</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
