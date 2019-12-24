@@ -115,6 +115,7 @@
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="testmutex.h" />
+    <ClInclude Include="testtimemutex.h" />
     <ClInclude Include="ThreadPool\ThreadPool.h" />
   </ItemGroup>
   <ItemGroup>
@@ -156,6 +157,7 @@
     </ClCompile>
     <ClCompile Include="StudyDemoInGit.cpp" />
     <ClCompile Include="testmutex.cpp" />
+    <ClCompile Include="testtimemutex.cpp" />
     <ClCompile Include="ThreadPool\TestThreadPool.cpp" />
     <ClCompile Include="ThreadPool\TestThreadPool.h" />
     <ClCompile Include="ThreadPool\ThreadPool.cpp" />

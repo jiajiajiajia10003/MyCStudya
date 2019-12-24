@@ -31,15 +31,15 @@
 
 #include <thread>
 #include "testmutex.h"
-
+#include "testtimemutex.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
     testing::InitGoogleTest(&argc, argv);
 
     
-    test_mutex();
-
+    //test_mutex();
+    test_time_mutex();
 	return RUN_ALL_TESTS();;
 }
 
