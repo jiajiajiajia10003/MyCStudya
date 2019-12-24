@@ -141,6 +141,9 @@
     <ClInclude Include="SimpleAOP\Aspect.h">
       <Filter>源文件\SimpleAOP</Filter>
     </ClInclude>
+    <ClInclude Include="testmutex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -253,6 +256,9 @@
     </ClCompile>
     <ClCompile Include="gtestDemo\testCase.cpp">
       <Filter>源文件\gtestDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="testmutex.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

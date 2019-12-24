@@ -29,9 +29,16 @@
 #include "SimpleAOP/TestAspect.h"
 #include <gtest/gtest.h>
 
+#include <thread>
+#include "testmutex.h"
+
+
 int _tmain(int argc, _TCHAR* argv[])
 {
     testing::InitGoogleTest(&argc, argv);
+
+    
+    test_mutex();
 
 	return RUN_ALL_TESTS();;
 }
