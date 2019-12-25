@@ -33,6 +33,7 @@
 #include "testmutex.h"
 #include "testtimemutex.h"
 #include "testconditionvariable.h"
+#include "testcallonce.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -41,7 +42,8 @@ int _tmain(int argc, _TCHAR* argv[])
     
     //test_mutex();
     //test_time_mutex();
-    test_conditionvariable();
+    //test_conditionvariable();
+    test_call_once();
 	return RUN_ALL_TESTS();;
 }
 
