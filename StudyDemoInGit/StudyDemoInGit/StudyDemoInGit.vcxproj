@@ -118,6 +118,7 @@
     <ClInclude Include="testconditionvariable.h" />
     <ClInclude Include="testmutex.h" />
     <ClInclude Include="testpackagetask.h" />
+    <ClInclude Include="testsharedfuture.h" />
     <ClInclude Include="testtimemutex.h" />
     <ClInclude Include="ThreadPool\ThreadPool.h" />
   </ItemGroup>
@@ -163,6 +164,7 @@
     <ClCompile Include="testconditionvariable.cpp" />
     <ClCompile Include="testmutex.cpp" />
     <ClCompile Include="testpackagetask.cpp" />
+    <ClCompile Include="testsharedfuture.cpp" />
     <ClCompile Include="testtimemutex.cpp" />
     <ClCompile Include="ThreadPool\TestThreadPool.cpp" />
     <ClCompile Include="ThreadPool\TestThreadPool.h" />

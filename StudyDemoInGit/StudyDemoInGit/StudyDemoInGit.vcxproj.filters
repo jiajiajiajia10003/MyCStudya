@@ -156,6 +156,9 @@
     <ClInclude Include="testpackagetask.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="testsharedfuture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -282,6 +285,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="testpackagetask.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="testsharedfuture.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

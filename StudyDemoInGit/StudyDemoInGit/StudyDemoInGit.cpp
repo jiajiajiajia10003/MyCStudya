@@ -35,6 +35,7 @@
 #include "testconditionvariable.h"
 #include "testcallonce.h"
 #include "testpackagetask.h"
+#include "testsharedfuture.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -45,7 +46,8 @@ int _tmain(int argc, _TCHAR* argv[])
     //test_time_mutex();
     //test_conditionvariable();
     //test_call_once();
-    test_package_task();
+    //test_package_task();
+    test_shared_future();
 
 	return RUN_ALL_TESTS();;
 }
