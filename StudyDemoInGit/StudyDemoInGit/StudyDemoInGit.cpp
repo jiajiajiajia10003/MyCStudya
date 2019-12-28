@@ -36,6 +36,7 @@
 #include "testcallonce.h"
 #include "testpackagetask.h"
 #include "testsharedfuture.h"
+#include "testargstemplate.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -47,7 +48,8 @@ int _tmain(int argc, _TCHAR* argv[])
     //test_conditionvariable();
     //test_call_once();
     //test_package_task();
-    test_shared_future();
+    //test_shared_future();
+    test_args_template();
 
 	return RUN_ALL_TESTS();;
 }
