@@ -56,6 +56,7 @@ void printarg(T t)
 template<class... args>
 void expand(args... a)
 {
-    // 
+    // 逗号表达式的第二个值，就是给数组赋值
     int initialize_arr[] = { (printarg(a), 66)... };
+    std::initializer_list<int> { (printarg(a), 5)... };
 }

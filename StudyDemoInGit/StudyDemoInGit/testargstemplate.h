@@ -1,4 +1,7 @@
 #pragma once
+/*
+    测试的是“可变参数模板函数”
+*/
 void test_args_template();
 //测试可变模板的数量
 void test_args_template1();
