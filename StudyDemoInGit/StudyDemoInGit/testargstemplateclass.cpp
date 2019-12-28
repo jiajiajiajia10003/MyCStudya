@@ -26,3 +26,35 @@ void test_args_template_class()
     std::cout << typeid(T).name() << std::endl;
 
 }
+///////使用可变参数模板的工厂函数/////////////////////////////////////
+
+
+ATest::ATest(int x)
+    : a(x)
+{
+}
+
+ATest::~ATest()
+{
+}
+
+BTest::BTest(int b1, int b2)
+    : m_b1(b1), m_b2(b2)
+{
+}
+
+BTest::~BTest()
+{
+}
+template<typename T, typename... Args>
+T* instance(Args... args)
+{
+    return new T(args...);
+}
+
+void test_template_factory()
+{
+    // 会报错，无法解析外部符号
+    //ATest* pa = Instance<ATest>(1);
+    //BTest* pb = Instance<BTest>(5, 8);
+}

@@ -51,7 +51,8 @@ int _tmain(int argc, _TCHAR* argv[])
     //test_package_task();
     //test_shared_future();
     //test_args_template();
-    test_args_template_class();
+    //test_args_template_class();
+    test_template_factory();
 
 	return RUN_ALL_TESTS();;
 }

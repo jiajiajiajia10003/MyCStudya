@@ -26,3 +26,29 @@ template<int... Indexes>
 struct MakeIndexes<0, Indexes...> {
     typedef IndexSeq<Indexes...> type;
 };
+
+
+///////使用可变参数模板的工厂函数/////////////////////////////////////
+class ATest
+{
+public:
+	ATest(int x);
+	~ATest();
+
+private:
+	int a;
+};
+class BTest
+{
+public:
+	BTest(int b1, int b2);
+	~BTest();
+
+private:
+	int m_b1;
+	int m_b2;
+};
+
+void test_template_factory();
+template<typename T, typename... Args>
+T* Instance(Args... args);
