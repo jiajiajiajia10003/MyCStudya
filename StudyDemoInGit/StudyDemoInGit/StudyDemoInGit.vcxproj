@@ -118,6 +118,7 @@
     <ClInclude Include="testargstemplateclass.h" />
     <ClInclude Include="testcallonce.h" />
     <ClInclude Include="testconditionvariable.h" />
+    <ClInclude Include="testdllhelp.h" />
     <ClInclude Include="testmutex.h" />
     <ClInclude Include="testpackagetask.h" />
     <ClInclude Include="testsharedfuture.h" />
@@ -166,6 +167,7 @@
     <ClCompile Include="testargstemplateclass.cpp" />
     <ClCompile Include="testcallonce.cpp" />
     <ClCompile Include="testconditionvariable.cpp" />
+    <ClCompile Include="testdllhelp.cpp" />
     <ClCompile Include="testmutex.cpp" />
     <ClCompile Include="testpackagetask.cpp" />
     <ClCompile Include="testsharedfuture.cpp" />

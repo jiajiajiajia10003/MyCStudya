@@ -38,6 +38,7 @@
 #include "testsharedfuture.h"
 #include "testargstemplate.h"
 #include "testargstemplateclass.h"
+#include "testdllhelp.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -52,7 +53,8 @@ int _tmain(int argc, _TCHAR* argv[])
     //test_shared_future();
     //test_args_template();
     //test_args_template_class();
-    test_template_factory();
+    //test_template_factory();
+    test_dll_help();
 
 	return RUN_ALL_TESTS();;
 }
