@@ -39,6 +39,7 @@
 #include "testargstemplate.h"
 #include "testargstemplateclass.h"
 #include "testdllhelp.h"
+#include "test_multi_curl.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -54,7 +55,10 @@ int _tmain(int argc, _TCHAR* argv[])
     //test_args_template();
     //test_args_template_class();
     //test_template_factory();
-    test_dll_help();
+    //test_dll_help();
+
+	bool retflag = false;
+	NewFunction(retflag);
 
 	return RUN_ALL_TESTS();;
 }

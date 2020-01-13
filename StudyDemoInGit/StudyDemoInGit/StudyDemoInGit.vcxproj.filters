@@ -168,6 +168,9 @@
     <ClInclude Include="testdllhelp.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="test_multi_curl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -306,6 +309,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="testdllhelp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_multi_curl.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
