@@ -40,6 +40,7 @@
 #include "testargstemplateclass.h"
 #include "testdllhelp.h"
 #include "test_multi_curl.h"
+#include "test_easy_curl.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -57,8 +58,11 @@ int _tmain(int argc, _TCHAR* argv[])
     //test_template_factory();
     //test_dll_help();
 
-	bool retflag = false;
-	NewFunction(retflag);
+	//bool retflag = false;
+	//NewFunction(retflag);
+
+	//TestThreadPoolFunction();
+	test_easy_url();
 
 	return RUN_ALL_TESTS();;
 }

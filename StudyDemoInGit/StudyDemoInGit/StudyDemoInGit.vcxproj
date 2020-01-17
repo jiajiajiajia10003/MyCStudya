@@ -123,6 +123,7 @@
     <ClInclude Include="testpackagetask.h" />
     <ClInclude Include="testsharedfuture.h" />
     <ClInclude Include="testtimemutex.h" />
+    <ClInclude Include="test_easy_curl.h" />
     <ClInclude Include="test_multi_curl.h" />
     <ClInclude Include="ThreadPool\ThreadPool.h" />
   </ItemGroup>
@@ -173,6 +174,7 @@
     <ClCompile Include="testpackagetask.cpp" />
     <ClCompile Include="testsharedfuture.cpp" />
     <ClCompile Include="testtimemutex.cpp" />
+    <ClCompile Include="test_easy_curl.cpp" />
     <ClCompile Include="test_multi_curl.cpp" />
     <ClCompile Include="ThreadPool\TestThreadPool.cpp" />
     <ClCompile Include="ThreadPool\TestThreadPool.h" />
