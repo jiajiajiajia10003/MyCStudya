@@ -62,8 +62,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	//NewFunction(retflag);
 
 	//TestThreadPoolFunction();
-	test_easy_url();
-
+	//test_easy_url();
+	test_easy_curl_by_thread();
 	return RUN_ALL_TESTS();;
 }
 
