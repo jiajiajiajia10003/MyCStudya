@@ -41,6 +41,7 @@
 #include "testdllhelp.h"
 #include "test_multi_curl.h"
 #include "test_easy_curl.h"
+#include "TimeSpan.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -63,7 +64,18 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	//TestThreadPoolFunction();
 	//test_easy_curl_by_thread();
-	test_easy_curl_by_thread_pool();
+	//test_easy_curl_by_thread_pool();
+
+	TimeSpan span;
+	std::this_thread::sleep_for(std::chrono::microseconds(1000));
+	int sp = span.elapsed_micro();
+
+	
+	TimeSpan span2;
+	std::this_thread::sleep_for(std::chrono::milliseconds(20));
+	int sp2 = span2.elapsed_milli();
+
+
 
 	return RUN_ALL_TESTS();;
 }

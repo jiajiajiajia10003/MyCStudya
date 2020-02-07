@@ -126,6 +126,7 @@
     <ClInclude Include="test_easy_curl.h" />
     <ClInclude Include="test_multi_curl.h" />
     <ClInclude Include="ThreadPool\ThreadPool.h" />
+    <ClInclude Include="TimeSpan.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="audio.cpp" />
@@ -179,6 +180,7 @@
     <ClCompile Include="ThreadPool\TestThreadPool.cpp" />
     <ClCompile Include="ThreadPool\TestThreadPool.h" />
     <ClCompile Include="ThreadPool\ThreadPool.cpp" />
+    <ClCompile Include="TimeSpan.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
