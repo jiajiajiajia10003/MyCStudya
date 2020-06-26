@@ -189,6 +189,9 @@
     <ClInclude Include="DesisnMode\BuilderMode.h">
       <Filter>源文件\DesisnMode</Filter>
     </ClInclude>
+    <ClInclude Include="DesisnMode\AdapterMode.h">
+      <Filter>源文件\DesisnMode</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -345,6 +348,9 @@
       <Filter>源文件\DesisnMode</Filter>
     </ClCompile>
     <ClCompile Include="DesisnMode\BuilderMode.cpp">
+      <Filter>源文件\DesisnMode</Filter>
+    </ClCompile>
+    <ClCompile Include="DesisnMode\AdapterMode.cpp">
       <Filter>源文件\DesisnMode</Filter>
     </ClCompile>
   </ItemGroup>

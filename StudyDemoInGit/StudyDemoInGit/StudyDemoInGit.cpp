@@ -45,6 +45,7 @@
 #include "DesisnMode/FactoryMode.h"
 #include "DesisnMode/AbstractFactoryMode.h"
 #include "DesisnMode/BuilderMode.h"
+#include "DesisnMode/AdapterMode.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -81,6 +82,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	test_factory_mode();
 	test_abstract_factory_mode();
 	test_builder_mode();
+	test_adapter_mode();
 
 	return RUN_ALL_TESTS();;
 }
