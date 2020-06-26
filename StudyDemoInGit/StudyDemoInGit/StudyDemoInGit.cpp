@@ -1,4 +1,4 @@
-// StudyDemoInGit.cpp : ¶¨Òå¿ØÖÆÌ¨Ó¦ÓÃ³ÌĞòµÄÈë¿Úµã¡£
+// StudyDemoInGit.cpp : å®šä¹‰æ§åˆ¶å°åº”ç”¨ç¨‹åºçš„å…¥å£ç‚¹ã€‚
 //
 
 #include "stdafx.h"
@@ -13,15 +13,15 @@
 //    //TestLocator testlocator;
 //    //testlocator.testFun();
 //
-//    // //²âÊÔ¼òµ¥¹¤³§Ä£Ê½
+//    // //æµ‹è¯•ç®€å•å·¥å‚æ¨¡å¼
 //    //TestFactory testFac;
 //    //testFac.testSimpleFactory();
-//    ////²âÊÔ¹¤³§Ä£Ê½
+//    ////æµ‹è¯•å·¥å‚æ¨¡å¼
 //    //testFac.testFactory();
-//    ////²âÊÔ³éÏó¹¤³§Ä£Ê½
+//    ////æµ‹è¯•æŠ½è±¡å·¥å‚æ¨¡å¼
 //    //testFac.testAbstractFactory();
 //
-//    //²âÊÔÃüÁîÄ£Ê½
+//    //æµ‹è¯•å‘½ä»¤æ¨¡å¼
 //    //TestCommand testCmd;
 //    //testCmd.TestFunc();
 //}
@@ -42,6 +42,7 @@
 #include "test_multi_curl.h"
 #include "test_easy_curl.h"
 #include "TimeSpan.h"
+#include "DesisnMode/FactoryMode.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -75,7 +76,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	std::this_thread::sleep_for(std::chrono::milliseconds(20));
 	int sp2 = span2.elapsed_milli();
 
-
+	test_factory_mode();
 
 	return RUN_ALL_TESTS();;
 }

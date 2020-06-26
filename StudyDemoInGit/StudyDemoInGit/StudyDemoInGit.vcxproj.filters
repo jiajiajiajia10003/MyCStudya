@@ -34,6 +34,9 @@
     <Filter Include="源文件\gtestDemo">
       <UniqueIdentifier>{1a8934f8-b5df-4bb8-be40-a296e90ea710}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\DesisnMode">
+      <UniqueIdentifier>{78748618-68e1-494f-aebe-36b211260c98}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -176,6 +179,9 @@
     </ClInclude>
     <ClInclude Include="TimeSpan.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DesisnMode\FactoryMode.h">
+      <Filter>源文件\DesisnMode</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -325,6 +331,9 @@
     </ClCompile>
     <ClCompile Include="TimeSpan.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DesisnMode\FactoryMode.cpp">
+      <Filter>源文件\DesisnMode</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
