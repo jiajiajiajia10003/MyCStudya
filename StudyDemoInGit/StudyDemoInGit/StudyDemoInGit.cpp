@@ -43,6 +43,7 @@
 #include "test_easy_curl.h"
 #include "TimeSpan.h"
 #include "DesisnMode/FactoryMode.h"
+#include "DesisnMode/AbstractFactoryMode.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -77,6 +78,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	int sp2 = span2.elapsed_milli();
 
 	test_factory_mode();
+	test_abstract_factory_mode();
 
 	return RUN_ALL_TESTS();;
 }

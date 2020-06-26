@@ -89,6 +89,7 @@
     <ClInclude Include="CommandMode\Receiver_1.h" />
     <ClInclude Include="CommandMode\Receiver_2.h" />
     <ClInclude Include="CommandMode\TestCommand.h" />
+    <ClInclude Include="DesisnMode\AbstractFactoryMode.h" />
     <ClInclude Include="DesisnMode\FactoryMode.h" />
     <ClInclude Include="Factory3Mode\AbstractFactory.h" />
     <ClInclude Include="Factory3Mode\AbstractProductA.h" />
@@ -139,6 +140,7 @@
     <ClCompile Include="CommandMode\Receiver_1.cpp" />
     <ClCompile Include="CommandMode\Receiver_2.cpp" />
     <ClCompile Include="CommandMode\TestCommand.cpp" />
+    <ClCompile Include="DesisnMode\AbstractFactoryMode.cpp" />
     <ClCompile Include="DesisnMode\FactoryMode.cpp" />
     <ClCompile Include="Factory3Mode\AbstractFactory.cpp" />
     <ClCompile Include="Factory3Mode\AbstractProductA.cpp" />

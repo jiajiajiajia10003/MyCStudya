@@ -183,6 +183,9 @@
     <ClInclude Include="DesisnMode\FactoryMode.h">
       <Filter>源文件\DesisnMode</Filter>
     </ClInclude>
+    <ClInclude Include="DesisnMode\AbstractFactoryMode.h">
+      <Filter>源文件\DesisnMode</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -333,6 +336,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="DesisnMode\FactoryMode.cpp">
+      <Filter>源文件\DesisnMode</Filter>
+    </ClCompile>
+    <ClCompile Include="DesisnMode\AbstractFactoryMode.cpp">
       <Filter>源文件\DesisnMode</Filter>
     </ClCompile>
   </ItemGroup>
