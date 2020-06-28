@@ -47,6 +47,7 @@
 #include "DesisnMode/BuilderMode.h"
 #include "DesisnMode/AdapterMode.h"
 #include "DesisnMode/ProxyMode.h"
+#include "DesisnMode/CompositeMode.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -85,6 +86,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	test_builder_mode();
 	test_adapter_mode();
 	test_proxy_mode();
+	test_composite_mode();
 
 	return RUN_ALL_TESTS();;
 }

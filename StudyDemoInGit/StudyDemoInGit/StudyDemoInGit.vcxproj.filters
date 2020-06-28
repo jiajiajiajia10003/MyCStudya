@@ -195,6 +195,9 @@
     <ClInclude Include="DesisnMode\ProxyMode.h">
       <Filter>源文件\DesisnMode</Filter>
     </ClInclude>
+    <ClInclude Include="DesisnMode\CompositeMode.h">
+      <Filter>源文件\DesisnMode</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -357,6 +360,9 @@
       <Filter>源文件\DesisnMode</Filter>
     </ClCompile>
     <ClCompile Include="DesisnMode\ProxyMode.cpp">
+      <Filter>源文件\DesisnMode</Filter>
+    </ClCompile>
+    <ClCompile Include="DesisnMode\CompositeMode.cpp">
       <Filter>源文件\DesisnMode</Filter>
     </ClCompile>
   </ItemGroup>
