@@ -48,6 +48,7 @@
 #include "DesisnMode/AdapterMode.h"
 #include "DesisnMode/ProxyMode.h"
 #include "DesisnMode/CompositeMode.h"
+#include "DesisnMode/FlyweightMode.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -87,6 +88,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	test_adapter_mode();
 	test_proxy_mode();
 	test_composite_mode();
+	test_flyweight_mode();
 
 	return RUN_ALL_TESTS();;
 }

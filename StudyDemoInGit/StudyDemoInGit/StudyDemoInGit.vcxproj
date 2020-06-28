@@ -94,6 +94,7 @@
     <ClInclude Include="DesisnMode\BuilderMode.h" />
     <ClInclude Include="DesisnMode\CompositeMode.h" />
     <ClInclude Include="DesisnMode\FactoryMode.h" />
+    <ClInclude Include="DesisnMode\FlyweightMode.h" />
     <ClInclude Include="DesisnMode\ProxyMode.h" />
     <ClInclude Include="Factory3Mode\AbstractFactory.h" />
     <ClInclude Include="Factory3Mode\AbstractProductA.h" />
@@ -149,6 +150,7 @@
     <ClCompile Include="DesisnMode\BuilderMode.cpp" />
     <ClCompile Include="DesisnMode\CompositeMode.cpp" />
     <ClCompile Include="DesisnMode\FactoryMode.cpp" />
+    <ClCompile Include="DesisnMode\FlyweightMode.cpp" />
     <ClCompile Include="DesisnMode\ProxyMode.cpp" />
     <ClCompile Include="Factory3Mode\AbstractFactory.cpp" />
     <ClCompile Include="Factory3Mode\AbstractProductA.cpp" />
