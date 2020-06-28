@@ -204,6 +204,9 @@
     <ClInclude Include="DesisnMode\StateMode.h">
       <Filter>源文件\DesisnMode</Filter>
     </ClInclude>
+    <ClInclude Include="DesisnMode\CommandMode.h">
+      <Filter>源文件\DesisnMode</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -375,6 +378,9 @@
       <Filter>源文件\DesisnMode</Filter>
     </ClCompile>
     <ClCompile Include="DesisnMode\StateMode.cpp">
+      <Filter>源文件\DesisnMode</Filter>
+    </ClCompile>
+    <ClCompile Include="DesisnMode\CommandMode.cpp">
       <Filter>源文件\DesisnMode</Filter>
     </ClCompile>
   </ItemGroup>
