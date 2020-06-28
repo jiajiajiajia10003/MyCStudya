@@ -49,6 +49,7 @@
 #include "DesisnMode/ProxyMode.h"
 #include "DesisnMode/CompositeMode.h"
 #include "DesisnMode/FlyweightMode.h"
+#include "DesisnMode/StateMode.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -89,6 +90,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	test_proxy_mode();
 	test_composite_mode();
 	test_flyweight_mode();
+	test_state_mode();
 
 	return RUN_ALL_TESTS();;
 }

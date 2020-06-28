@@ -201,6 +201,9 @@
     <ClInclude Include="DesisnMode\FlyweightMode.h">
       <Filter>源文件\DesisnMode</Filter>
     </ClInclude>
+    <ClInclude Include="DesisnMode\StateMode.h">
+      <Filter>源文件\DesisnMode</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -369,6 +372,9 @@
       <Filter>源文件\DesisnMode</Filter>
     </ClCompile>
     <ClCompile Include="DesisnMode\FlyweightMode.cpp">
+      <Filter>源文件\DesisnMode</Filter>
+    </ClCompile>
+    <ClCompile Include="DesisnMode\StateMode.cpp">
       <Filter>源文件\DesisnMode</Filter>
     </ClCompile>
   </ItemGroup>

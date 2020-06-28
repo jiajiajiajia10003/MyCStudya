@@ -96,6 +96,7 @@
     <ClInclude Include="DesisnMode\FactoryMode.h" />
     <ClInclude Include="DesisnMode\FlyweightMode.h" />
     <ClInclude Include="DesisnMode\ProxyMode.h" />
+    <ClInclude Include="DesisnMode\StateMode.h" />
     <ClInclude Include="Factory3Mode\AbstractFactory.h" />
     <ClInclude Include="Factory3Mode\AbstractProductA.h" />
     <ClInclude Include="Factory3Mode\AbstractProductB.h" />
@@ -152,6 +153,7 @@
     <ClCompile Include="DesisnMode\FactoryMode.cpp" />
     <ClCompile Include="DesisnMode\FlyweightMode.cpp" />
     <ClCompile Include="DesisnMode\ProxyMode.cpp" />
+    <ClCompile Include="DesisnMode\StateMode.cpp" />
     <ClCompile Include="Factory3Mode\AbstractFactory.cpp" />
     <ClCompile Include="Factory3Mode\AbstractProductA.cpp" />
     <ClCompile Include="Factory3Mode\AbstractProductB.cpp" />
