@@ -47,6 +47,7 @@
 #include "DesisnMode/FlyweightMode.h"
 #include "DesisnMode/StateMode.h"
 #include "DesisnMode/CommandMode.h"
+#include "DesisnMode/MementoMode.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -89,6 +90,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	test_flyweight_mode();
 	test_state_mode();
 	test_command_mode();
+	test_memento_mode();
 
 	return RUN_ALL_TESTS();;
 }
