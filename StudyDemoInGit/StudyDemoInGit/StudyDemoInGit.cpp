@@ -4,7 +4,6 @@
 #include "stdafx.h"
 #include "ServiceLocator/TestLocator.h"
 #include "Factory3Mode/TestFactory.h"
-#include "CommandMode/TestCommand.h"
 
 #include "ThreadPool/TestThreadPool.h"
 
@@ -21,9 +20,6 @@
 //    ////测试抽象工厂模式
 //    //testFac.testAbstractFactory();
 //
-//    //测试命令模式
-//    //TestCommand testCmd;
-//    //testCmd.TestFunc();
 //}
 
 #include "SimpleAOP/TestAspect.h"
